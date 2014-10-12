@@ -14,6 +14,10 @@ angular
             templateUrl: 'home.html',
             controller: 'HomeCtrl'
         })
+        .state('login', {
+            url: '/login',
+            templateUrl: 'user/layout.html'
+        })
         .state('dashboard', {
             abstract: true,
             url: '/dashboard',
