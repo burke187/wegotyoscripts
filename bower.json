@@ -5,7 +5,10 @@
     "angular": "latest",
     "angular-ui-router": "latest",
     "angular-animate": "latest",
-    "bootstrap-sass-official": "latest"
+    "bootstrap-sass-official": "latest",
+    "angular-pretty-checkable": "latest"
+      // "threex"      : "git@github.com:rharriso/threex.git",
+      // "gsvpano.js"  : "https://github.com/rharriso/GSVPano.js/blob/master/src/GSVPano.js"
     }
   },
   "vendor": {

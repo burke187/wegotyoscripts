@@ -17,5 +17,6 @@
 //= require angular-ui-router
 //= require angular-rails-templates
 //= require angular-ui-bootstrap-tpls
+//= require angular-pretty-checkable
 //= require_tree .
 //= require_tree ../templates
