@@ -2,7 +2,8 @@ angular
     .module('Wegotyoscripts', [
         'ngAnimate',
         'ui.router',
-        'templates'
+        'templates',
+        'ui.bootstrap'
     ])
     .config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
  /**
