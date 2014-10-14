@@ -1,1 +1,15 @@
-<h2>Second Dashboard View</h2>
+<div class="container" ng-controller="glassesCtrl">
+	<form>
+		<h4>{{title2}}</h4>
+	    
+	    <select class="selectpicker" data-style="btn-info" ng-model="	selectedValue" ng-options="value for value in sph"></select>
+	
+	    <h4>{{title3}}</h4>
+	    
+	    <select class="selectpicker" data-style="btn-info" ng-model="	selectedValue" ng-options="value for value in syl"></select>
+	
+	    <h4>{{title4}}</h4>
+	    
+	    <select class="selectpicker" data-style="btn-info" ng-model="	selectedValue" ng-options="value for value in axs"></select>
+	</form>
+</div>

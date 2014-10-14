@@ -1,32 +1,12 @@
-<div class="container" ng-controller="ScriptCtrl">
+<div class="container" ng-controller="scriptCtrl">
      <head>
   </head>
 
     <h3>{{title1}}</h3>
-    <form>
+<form>
   <input type="radio" ng-model="selectedValue" value="Glasses"> Glasses<br/>
   <input type="radio" ng-model="selectedValue" value="Contacts"> Contacts<br/>
   <input type="radio" ng-model="selectedValue" value="Both"> Both<br/>
   <tt>selectedValue = {{selectedValue | json}}</tt><br/>
- </form>
-
-    <h4>{{title2}}</h4>
-    
-    <select class="selectpicker" data-style="btn-info" ng-model="selectedValue" ng-options="value for value in sph"></select>
-
-    <h4>{{title3}}</h4>
-    
-    <select class="selectpicker" data-style="btn-info" ng-model="selectedValue" ng-options="value for value in syl"></select>
-
-    <h4>{{title4}}</h4>
-    
-    <select class="selectpicker" data-style="btn-info" ng-model="selectedValue" ng-options="value for value in axs"></select>
-
-    <h4>{{title5}}</h4>
-    
-    <select class="selectpicker" data-style="btn-info" ng-model="selectedValue" ng-options="value for value in bc"></select>
-
-    <h4>{{title6}}</h4>
-    
-    <select class="selectpicker" data-style="btn-info" ng-model="selectedValue" ng-options="value for value in diam"></select>
+</form>
 </div>
