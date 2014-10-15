@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
-  before_filter :intercept_html_requests
-  layout false
+  # before_filter :intercept_html_requests
+  # layout false
   respond_to :json
 
   def user_params
