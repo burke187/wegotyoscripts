@@ -38,6 +38,11 @@ angular
             .state('dashboard.three', {
                 url: '/three',
                 templateUrl: 'dashboard/three.html'
+            })
+
+            .state('dashboard.four', {
+                url: '/four',
+                templateUrl: 'dashboard/four.html'
             });
 
 

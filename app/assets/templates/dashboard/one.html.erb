@@ -1,12 +1,20 @@
 <div class="container" ng-controller="scriptCtrl">
-     <head>
-  </head>
+    <head>
+    </head>
 
     <h3>{{title1}}</h3>
 <form>
-  <input type="radio" ng-model="selectedValue" value="Glasses"> Glasses<br/>
-  <input type="radio" ng-model="selectedValue" value="Contacts"> Contacts<br/>
-  <input type="radio" ng-model="selectedValue" value="Both"> Both<br/>
-  <tt>selectedValue = {{selectedValue | json}}</tt><br/>
+    <div class="btn-group" data-toggle="buttons">
+         <a class="btn btn-primary" href="/dashboard/two"> 
+            <input type="checkbox" ng-model="selectedValue">Glasses
+        </a>
+        <a class="btn btn-primary" href="/dashboard/three">
+            <input type="checkbox" ng-model="selectedValue"> Contacts
+        </a>
+        <a class="btn btn-primary" href="/dashboard/four">
+            <input type="checkbox" ng-model="selectedValue"> Both
+        </a>
+    </div>
+    <br><tt>selectedValue = {{selectedValue | json}}</tt><br/>
 </form>
 </div>
