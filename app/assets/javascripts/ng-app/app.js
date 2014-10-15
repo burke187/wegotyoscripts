@@ -18,6 +18,7 @@ angular
         .state('login', {
             url: '/login',
             templateUrl: 'user/layout.html'
+            controller:"users_controller"
         })
         .state('dashboard', {
             abstract: true,

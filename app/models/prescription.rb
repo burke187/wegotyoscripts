@@ -1,5 +1,4 @@
 class Prescription < ActiveRecord::Base
-  attr_accessible :user_id, :prescription_type, :sph, :cyl, :axis, :bc, :diam
 
   validates :user_id, :numericality => { only_integer: true }
   # validates :sph, :greater_than_or_equal_to => -10.0, :less_than_or_equal_to => 10.0 

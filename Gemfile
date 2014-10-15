@@ -1,4 +1,7 @@
 source 'https://rubygems.org'
+gem 'faker'
+gem 'bcrypt-ruby', '3.1.2'
+gem 'factory_girl_rails'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.6'

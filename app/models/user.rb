@@ -1,5 +1,4 @@
 class User < ActiveRecord::Base
-  attr_accessible :username, :password
 
   validates :username, presence: true, uniqueness: { case_sensitive: false }
   
