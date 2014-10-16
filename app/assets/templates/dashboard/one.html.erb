@@ -3,6 +3,10 @@
     </head>
 
     <h3>{{title1}}</h3>
+            <div ng-repeat="script in allScripts">
+            <input ng-model="script.model" type="text" />
+            <a class="btn btn-danger" href="javascript://" ng-click="removeScript(script)">Delete</a>
+        </div>
 <form>
     <div class="btn-group" data-toggle="buttons">
          <a class="btn btn-primary" href="/dashboard/two"> 
