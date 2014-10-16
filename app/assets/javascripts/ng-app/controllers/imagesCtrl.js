@@ -1,9 +1,7 @@
-// angular.module('Wegotyoscripts')
-// 	.controller('imagesController', function($scope) {
-//   	$scope.image = [{
-//     	src: '/opt.png',
-//   	}];
-// });
+angular.module('Wegotyoscripts')
+	.controller('imagesCtrl', function($scope) {
+  	$scope.image = "http://www.theeyecarecenter.com/images/banner-blue-eyes.jpg";
+});
 
 
 

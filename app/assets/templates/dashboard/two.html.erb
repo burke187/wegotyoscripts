@@ -4,15 +4,15 @@
 		<div class="form-group" type="form-inline">
 			<h4>{{title2}}</h4>
 	    
-	    		<select class="selectpicker" data-style="btn-info" ng-model="formData.text" ng-options="value for value in sph"></select>
+	    		<select class="selectpicker" data-style="btn-info" ng-model="prescription.sph" ng-options="value for value in sph"></select>
 	
 	    	<h4>{{title3}}</h4>
 	    
-	    		<select class="selectpicker" data-style="btn-info" ng-model="formData.text" ng-options="value for value in syl"></select>
+	    		<select class="selectpicker" data-style="btn-info" ng-model="prescription.syl" ng-options="value for value in syl"></select>
 	
 	    	<h4>{{title4}}</h4>
 	    
-	    		<select class="selectpicker" data-style="btn-info" ng-model="formData.text" ng-options="value for value in axs"></select>
+	    		<select class="selectpicker" data-style="btn-info" ng-model="prescription.axs" ng-options="value for value in axs"></select>
 		</div>
 	</form>
 	    		<a class="btn btn-success" href="/dashboard" ng-click="addScript()">Add</a>
