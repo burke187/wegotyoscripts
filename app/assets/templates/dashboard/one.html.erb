@@ -3,8 +3,8 @@
     </head>
 
     <h3>Select Prescription Type</h3>
-            <div ng-repeat="script in scripts">
-            <input ng-model="script.model" type="text" />
+            <div ng-repeat="script in allScripts">
+            <input ng-model="script.allScripts" type="text" />
             <a class="btn btn-danger" href="javascript://" ng-click="removeScript(script)">Delete</a>
         </div>
 <form>

@@ -1,18 +1,15 @@
 angular.module('Wegotyoscripts')
     .controller('scriptCtrl', function ($scope){
     $scope.items = ["Glasses", "Contacts", "Both"];
-    $scope.allScripts = [];
-      // resolve: {
-      //               scripts: ['$http', function($http){
-      //                   return $http.get('/api/scripts.json').then(function(response){
-      //                       return response.data;
-      //                   })
-      //               }]
-      //           }
+    $scope.allScripts = [scripts: ['$http', function($http){
+                        return $http.get('/api/scripts.json').then(function(response){
+                            return response.data;
+                        })
+                    }]];
     
     $scope.addScript = function() {
         $scope.allScripts.push({});
-        $http.post("/api/scipts", allScripts)
+        $http.post("/api/scripts", allScripts)
         alert(JSON.stringify($scope.allScripts));
     };
     $scope.removeScript = function(script) {

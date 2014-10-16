@@ -16,4 +16,9 @@ angular.module('Wegotyoscripts')
     $scope.title6 = "DIAM";
     $scope.diam =['13','13.1','13.2','13.3','13.4','13.5','13.6','13.7','13.8','13.9','14','14.1','14.2','14.3','14.4','14.5','14.6','14.7','14.8','14.9','15'];
 
+    $scope.addScript = function() {
+        $scope.allScripts.push({});
+        $http.post("/api/scripts", allScripts)
+        alert(JSON.stringify($scope.allScripts));
+    };
 });
